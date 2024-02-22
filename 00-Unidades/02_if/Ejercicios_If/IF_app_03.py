@@ -5,8 +5,8 @@ from tkinter.simpledialog import askstring as prompt
 import customtkinter
 
 '''
-nombre:
-apellido:
+nombre:JAQUELIN
+apellido: MARTINEZ
 ---
 Ejercicio: if_03
 ---
