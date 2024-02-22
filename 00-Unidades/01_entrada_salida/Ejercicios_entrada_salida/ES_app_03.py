@@ -34,6 +34,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
+        #self.txtnombre es el lugar donde se almacena lo que ingresamos
+        # y con el .get() obtenemos lo que contiene dentro
         valor_texto = self.txt_nombre.get()
         alert("Resultado",valor_texto)
         
