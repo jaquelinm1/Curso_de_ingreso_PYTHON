@@ -34,6 +34,9 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
+        valor_texto = self.txt_nombre.get()
+        alert("Resultado",valor_texto)
+        
         pass
                 
     
